@@ -21,6 +21,7 @@ x = ()
 # y = []* 4;
 # y = 0
 
+
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.GRID])
 server = app.server
 
